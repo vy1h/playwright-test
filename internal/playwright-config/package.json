@@ -1,0 +1,11 @@
+{
+  "name": "@internals/playwright-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.36.2"
+  }
+}

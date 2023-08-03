@@ -1,0 +1,26 @@
+{
+  "name": "playwright-test",
+  "version": "1.0.0",
+  "description": "README.md",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "bootstrap": "npm install --unsafe-perm=true --allow-root && lerna bootstrap",
+    "test:e2e2": "npm test:e2e --prefix example/e2e "
+  },
+  "dependencies": {
+    "lerna": "^6.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v5zz/playwright-test.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/v5zz/playwright-test/issues"
+  },
+  "homepage": "https://github.com/v5zz/playwright-test#readme"
+}
