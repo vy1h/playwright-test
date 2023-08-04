@@ -1,5 +1,5 @@
 {
-  "packages": ["example/*", "internal/*"],
+  "packages": ["example", "example/*", "internal/*"],
 
   "version": "independent"
 }

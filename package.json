@@ -7,8 +7,8 @@
     "example": "example"
   },
   "scripts": {
-    "bootstrap": "npm install --unsafe-perm=true --allow-root && lerna bootstrap",
-    "test:e2e2": "npm test:e2e --prefix example/e2e "
+    "bootstrap": "npm install && lerna bootstrap",
+    "test:e2e2": "npm run test:e2e --prefix example/e2e"
   },
   "dependencies": {
     "lerna": "^6.4.0"

@@ -1,6 +1,6 @@
 import { defineConfig, devices } from '@playwright/test';
 
-const Config = ({testDir,})=> defineConfig({
+const Config = ({testDir,})=> ({
   // Look for test files in the "tests" directory, relative to this configuration file.
   testDir,
 
@@ -34,11 +34,6 @@ const Config = ({testDir,})=> defineConfig({
     },
   ],
   // Run your local dev server before starting the tests.
-  webServer: {
-    command: 'npm run start',
-    url: 'http://127.0.0.1:3000',
-    reuseExistingServer: !process.env.CI,
-  },
 });
 
 export default Config
